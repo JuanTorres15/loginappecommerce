@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+
+.PadreContenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%; 
+}
+
+.LoginContainer{
+    position: relative;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    width: 400px;
+    height: 450px;
+    backdrop-filter: blur(45px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.LoginContainer h2{
+    font-size: 2.5rem;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.InputContainer{
+    width: 100%;
+}
+
+.Input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+    position: relative;
+    border-bottom: 2px solid #000000;
+}
+
+.Input label{
+    position: absolute;
+    top: 50%;
+    left: 1px;
+    transform: translateY(-50%);
+    color: #000000;
+    font-size: 1rem;
+    pointer-events: none;
+    transition: .6s;
+    font-family: "Comfortaa", sans-serif;
+}
+
+input:focus ~ label,
+input:valid ~ label{
+    top: -5px;
+}
+
+.Input input{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: -35px 0 5px;
+    color: #000000;
+}
+
+.Input svg{
+    position: absolute;
+    font-size: 1.6rem;
+    color: rgb(0, 0, 0);
+    right: 5px;
+}
+
+.Button{
+    width: 100%;
+    height: 45px;
+    border-radius: 50px;
+    background: #fff;
+    border: none;
+    font-family: "Comfortaa", sans-serif;
+    cursor: pointer;
+    outline: none;
+    font-size: 1rem;
+    transition: .4s;
+}
+
+.Button:hover{
+    opacity: .9;
+}
+
+.Registrar{
+    font-size: .8rem;
+    color: #000000;
+    text-align: center;
+    margin: 20px 0 10px;
+}
+
+.Registrar a{
+    text-decoration: none;
+    color: #1e2583;
+}

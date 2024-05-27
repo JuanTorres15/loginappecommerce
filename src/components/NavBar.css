@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+.navBar{
+    padding: 1em;
+    width: 100%;
+    top: 0;
+}
+
+.navBarList{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+}
+
+.navBarItem{
+    margin-left: 20px;
+}
+
+.navBarItem a{
+    text-decoration: none;
+    color: black;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 1.2rem;
+    transition: .3s;
+}
+
+.navBarItem a:hover{
+    color: white;
+}
+
+.navBarCart{
+    display: flex;
+    justify-content: start;
+    margin-right: 200px;
+    color: white;
+}
+
+.navBarCartCount{
+    background-color: #ff6347;
+    border-radius: 50%;
+    color: white;
+    padding: 0.2em 0.6em;
+    font-size: 0.8em;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
