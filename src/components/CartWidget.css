@@ -1,0 +1,6 @@
+.navBarCart{
+    display: flex;
+    justify-content: start;
+    margin-right: 200px;
+    color: rgb(0, 0, 0);
+}

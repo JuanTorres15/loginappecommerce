@@ -1,21 +1,16 @@
 import "./NavBar.css"
 import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { CartContext } from "../CartContext";
-import { useContext } from "react";
+import { CartWidget } from "./CartWidget";
 
 
 export function NavBar () {
-    
-    const { cantidadAgregadaCarrito } = useContext(CartContext)
 
     return(
         <nav className="navBar">
             <ul className="navBarList">
                 <li className="navBarCart">
-                    <Link>
-                        <FontAwesomeIcon icon="fa-solid fa-cart-shopping" />
-                        {cantidadAgregadaCarrito > 0 && <span className="navBarCartCount">{cantidadAgregadaCarrito}</span>}
+                    <Link to="/carrito">
+                        <CartWidget/>
                     </Link>
                 </li>
                 <li className="navBarItem"><Link to="/">Inicio</Link></li>
