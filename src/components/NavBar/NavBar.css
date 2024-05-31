@@ -18,12 +18,12 @@
 
 .navBarItem a{
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     font-family: "Comfortaa", sans-serif;
     font-size: 1.2rem;
     transition: .3s;
 }
 
 .navBarItem a:hover{
-    color: white;
+    color: rgb(43, 144, 184);
 }

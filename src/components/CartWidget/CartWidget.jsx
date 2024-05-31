@@ -1,8 +1,8 @@
-import "./CartWidget.css"
+import "../CartWidget/CartWidget.css"
 import { useContext } from "react"
 import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { CartContext } from "../CartContext";
+import { CartContext } from "../../CartContext";
 
 export function CartWidget () {
     const {cantidadAgregadaCarrito} = useContext(CartContext)

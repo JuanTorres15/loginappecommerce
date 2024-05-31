@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;    
+}
+
+.contenedor_productos{
+    border-radius: 5px;
+    border: 2px solid rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    height: 350px;
+    padding: 5px;
+    text-align: center;
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    font-family: "Comfortaa", sans-serif;
+}
+
+.imagen_productos{
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+
+.boton_productos{
+    background-color: #000000;
+    border: none; 
+    border-radius: 10px;
+    color: #ffffff; 
+    padding: 10px 20px;
+    font-family: "Comfortaa", sans-serif; 
+    font-size: 16px; 
+    cursor: pointer; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s, transform 0.3s; 
+}
+
+.boton_productos:hover{
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+
+}
+
+.titulo_productos{
+    color: white;
+}
+
+.descripcion_productos{
+    color: white;
+}
+
+.precio_productos{
+    color: white;
+}
+
+.stock_productos{
+    color: gray;
+    font-size: 0.7rem;
+}
